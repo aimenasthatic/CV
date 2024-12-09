@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    width: 800px;
+    margin-left: 300px;
+    border: #0056b3 5px solid;
+    border-radius: 4px;
+}
+hr{
+    border-bottom: 2px solid #0056b3
+}
+h1 {
+    font-size: 2em;
+    margin: 0;
+    text-align: center;
+    color: #222;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+}
+
+/* Name Section */
+.name-section {
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.name-h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+.contact a {
+   
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 0 15px;
+}
+.ski-exp{
+    display: block;
+}
+
+/* Left Section */
+.section {
+    margin-bottom: 20px;
+}
+.left {
+    flex: 1;
+    padding-right: 15px;
+}
+
+.left .section {
+    margin-bottom: 20px;
+}
+
+/* Right Section */
+.right {
+    flex: 1;
+    padding-left: 15px;
+    border-left: 2px solid #ddd;
+    padding-left: 50px;
+}
+
+/* Additional Styling */
+p {
+    margin: 5px 0;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.ski-exp{
+ margin-right: 20px;
+}
